@@ -1,0 +1,292 @@
+.breadcrum span::after {
+    content: ">";
+    margin: 0 6px;
+    font-size: 14px;
+    color: #767171;
+}
+
+.footer .usp-section .col-2 h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+
+.footer .usp-section .col-1 h1 {
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.is--faq .accordion {
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    margin: 2px 0;
+    background: #fff;
+    border: 1px solid #cccc;
+    color: #111111;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.faq-text h1 {
+    color: #111111;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.faq-text span {
+    color: #0278f2;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.faq-header .faq-btn {
+    display: block;
+}
+
+.faq-btn a {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FFFFFF00;
+    border: 1px solid #0278f2;
+    padding: 15px 30px 15px 30px;
+    border-radius: 4px;
+    color: #000;
+}
+
+.faq-header .faq-text {
+    display: block;
+}
+
+.is--faq .active,
+.is--faq .accordion:hover {
+    background-color: #ccc;
+}
+
+.is--faq .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.is--faq .active:after {
+    content: "\2212";
+}
+
+.is--faq .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .800s ease-out;
+}
+
+.faq-modules {
+    width: 100%;
+    display: block;
+    margin: 5% 0 5% 0;
+}
+
+.is--faq .faq-wrapper {
+    width: 100%;
+    display: block;
+}
+
+.is--faq .faq-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.is--faq .faq-grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.is--faq .faq-grid .col-1 {
+    width: 50%;
+    display: block;
+    padding: 0 15px;
+}
+
+.is--faq .faq-grid .col-2 {
+    width: 50%;
+    display: block;
+    padding: 0 15px;
+}
+
+.footer .usp-section {
+    width: 100%;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* offer css here */
+
+.is--pricing .discount-offer {
+    width: 100%;
+    display: block;
+}
+
+.is--pricing .discount-wrapper {
+    width: 100%;
+    display: block;
+    background-image: url(/assets/img/bg-offer.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+}
+
+.offer-bg-overlay {
+    background-color: #000000FC;
+    opacity: 0.74;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 8% 30px;
+}
+
+.offer-bg-overlay .content {
+    width: 100%;
+}
+
+.offer-bg-overlay .content h1 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 600;
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+
+.offer-bg-overlay .content span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    margin: 10px 0;
+}
+
+.btn-info {
+    display: block;
+    margin: 30px 0;
+}
+
+.btn-info a {
+    /* display: block; */
+    padding: 15px 30px;
+    background: #0278F2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+/* end offer */
+
+@media screen and (max-width:1100px) {
+    .is--faq .faq-grid {
+        width: 100%;
+        display: block;
+    }
+    .is--faq .faq-grid .col-1 {
+        width: 100%;
+        display: block;
+        padding: 0 15px;
+    }
+    .is--faq .faq-grid .col-2 {
+        width: 100%;
+        display: block;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .footer .usp-section {
+        width: 100%;
+        padding: 50px 30px;
+        display: block;
+        justify-content: space-between;
+    }
+    .usp-section .col-1 {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .usp-section .col-2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .faq-text h1 {
+        color: #111111;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.6;
+    }
+    .is--faq .accordion {
+        font-size: 14px;
+    }
+    .is--faq .faq-header {
+        display: block;
+    }
+    .faq-header .faq-text {
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+    }
+    .faq-btn a {
+        text-align: center;
+    }
+    .is--faq .main-banner {
+        width: 100%;
+        padding: 30px;
+    }
+    /* offer */
+    .offer-bg-overlay .content h1 {
+        color: #fff;
+        font-size: 32px;
+        line-height: 1.5;
+        font-weight: 600;
+        display: block;
+        width: 70%;
+        margin: 20px auto;
+    }
+    .footer .usp-section .col-2 h1 {
+        font-size: 24px;
+        color: #fff;
+        margin: 0;
+        line-height: 0.8;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width:550px) {}

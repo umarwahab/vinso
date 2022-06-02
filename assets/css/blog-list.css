@@ -1,0 +1,272 @@
+.blog-list-modules {
+    width: 100%;
+    display: block;
+}
+
+.blog-list-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.blog-list-wrapper .blog-list {
+    width: 70%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 45px 20px;
+}
+
+.blog-list-wrapper .recommend-list {
+    width: 30%;
+    padding: 45px 20px;
+}
+
+.blog-list-wrapper .recommend-list .search-wrapper {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.blog-list-wrapper .recommend-list .search-wrapper h1 {
+    font-size: 20px;
+    color: #111111;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.search-wrapper .search-input {
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+    position: relative;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search-input input {
+    display: block;
+    border: 0;
+    width: 100%;
+    padding: 15px 10px;
+    outline: none;
+}
+
+.search-input i.fa.fa-search {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 22px;
+    color: #0278f2;
+}
+
+.recommend-list .category-wrapper ul {
+    margin: 0;
+    padding: 15px 0;
+    list-style: none;
+}
+
+.recommend-list .category-wrapper {
+    width: 100%;
+    display: block;
+}
+
+.category-wrapper li {
+    line-height: 1.8;
+}
+
+.category-wrapper li a {
+    display: inline-block;
+    width: 90%;
+    font-size: 15px;
+    color: rgb(17, 17, 17);
+    line-height: 2.4;
+    text-decoration: none;
+}
+
+.recommend-list .recent-post {
+    width: 100%;
+    display: block;
+}
+
+.recent-post .post-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.post-box .post-icon {
+    width: 20%;
+    height: auto;
+}
+
+.post-box .content {
+    width: 80%;
+    display: block;
+    padding: 0 15px;
+}
+
+.post-box .post-icon img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.content .feed {
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    line-height: 1.313;
+}
+
+.content .publishars {
+    width: 100%;
+    display: block;
+}
+
+.publishars .user span {
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+    line-height: 1.538;
+}
+
+.content .publishars {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.content .publishars .comment span {
+    margin: 0 5px;
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+    line-height: 1.538;
+}
+
+.comment i.fa.fa-comment {
+    color: rgb(136, 136, 136);
+}
+
+.blog-list-wrapper .blog-list-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.blog-list-box .blog-image {
+    width: 40%;
+}
+
+.blog-list-wrapper .blog-list-box .blog-content {
+    width: 60%;
+    display: block;
+    margin: 0;
+    padding: 0 40px;
+}
+
+.blog-list-box .blog-image img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.blog-content .newsfeed {
+    font-size: 22px;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    line-height: 1.318;
+    margin: 0 0 10px 0;
+}
+
+.blog-content .publishars {
+    display: flex;
+}
+
+.publishars .user {
+    width: 70%;
+    display: block;
+}
+
+.publishars .comment {
+    width: 30%;
+    display: block;
+    padding-left: 5px;
+}
+
+.blog-content .details {
+    margin: 15px 0;
+    display: block;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    line-height: 1.733;
+}
+
+.blog-content .publishars .comment span {
+    margin: 0 5px;
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+    line-height: 1.538;
+}
+
+.blog-list-modules .pagination {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:992px) {
+    .blog-list-wrapper {
+        display: block;
+    }
+    .blog-list-wrapper .blog-list {
+        width: 100%;
+        padding: 20px;
+    }
+    .blog-list-wrapper .recommend-list {
+        width: 80%;
+        padding: 45px 20px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .blog-content .newsfeed {
+        font-size: 18px;
+    }
+    .blog-list-modules .pagination {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .blog-list-wrapper .blog-list-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .blog-list-box .blog-image {
+        width: 100%;
+    }
+    .blog-list-wrapper .blog-list-box .blog-content {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .blog-list-wrapper .recommend-list {
+        width: 100%;
+        padding: 45px 20px;
+        margin: 0 auto;
+    }
+}

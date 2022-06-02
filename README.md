@@ -1,2 +1,0 @@
-# vinso
-Vinso Website
